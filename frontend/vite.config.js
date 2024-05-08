@@ -9,7 +9,7 @@ export default defineConfig({
 		// Get rid of the CORS error
 		proxy: {
 			"/api": {
-				target: "https://solitis-backend.vercel.app/",
+				target: "https://solitis-production.up.railway.app",
 				changeOrigin: true,
 				secure: false,
 			},
